@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  sushiswap:
+    build: .
+    image: "sushiswap.public.dappnode.eth:1.0.0"
+    restart: unless-stopped
+    ports:
+      - "80/tcp"
