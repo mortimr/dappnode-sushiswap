@@ -10,4 +10,4 @@ WORKDIR /usr/src/app
 
 EXPOSE 80
 
-ENTRYPOINT yarn build --port 80
+ENTRYPOINT yarn start --port 80
